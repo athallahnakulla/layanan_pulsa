@@ -65,9 +65,9 @@ func main() {
 	connectDB()
 
 	myApp := app.New()
-	w := myApp.NewWindow("USSD *805#")
+	w := myApp.NewWindow("USSD *858#")
 
-	label := widget.NewLabel("Ketik *805# untuk mulai")
+	label := widget.NewLabel("Ketik *858# untuk mulai")
 	input := widget.NewEntry()
 
 	button := widget.NewButton("Kirim", func() {
@@ -81,18 +81,18 @@ func main() {
 		}
 
 		if text == "9" && step == 1 {
-			label.SetText("Terima kasih telah menggunakan layanan *805#")
+			label.SetText("Terima kasih telah menggunakan layanan *858#")
 			step = 0
 			input.SetText("")
 			return
 		}
 
 		if step == 0 {
-			if text == "*805#" {
+			if text == "*858#" {
 				label.SetText("Menu:\n1. Cek Pulsa\n2. Cek Kuota\n3. Beli Kuota\n\n0. Menu Utama\n9. Keluar")
 				step = 1
 			} else {
-				label.SetText("Kode USSD salah!\nKetik *805#")
+				label.SetText("Kode USSD salah!\nKetik *858#")
 			}
 
 		} else if step == 1 {
