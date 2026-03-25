@@ -1,6 +1,4 @@
-# layanan_pulsa
-
-# 📱 USSD Pulsa App (*805#)
+# 📱 USSD Pulsa App (*858#)
 
 Simulasi sistem USSD seperti pada handphone (contoh: *805#) yang dibuat menggunakan **Golang**, **Fyne (GUI)**, dan **SQLite**.
 
@@ -12,9 +10,10 @@ Aplikasi ini meniru cara kerja layanan operator seluler untuk:
 - Manajemen masa aktif
 
 
+
 ## 🚀 Fitur Utama
 
-- 📞 Akses menggunakan kode USSD `*805#`
+- 📞 Akses menggunakan kode USSD `*858#`
 - 💰 Cek saldo pulsa
 - 📶 Cek sisa kuota & masa aktif
 - 🛒 Pembelian paket kuota (otomatis menambah masa aktif)
@@ -23,11 +22,13 @@ Aplikasi ini meniru cara kerja layanan operator seluler untuk:
 - 🧭 Navigasi berbasis menu (state machine)
 
 
+
 ## 🛠️ Tech Stack
 
 - **Golang** → Logic & backend
 - **Fyne** → GUI Desktop App
 - **SQLite** → Database lokal
+
 
 
 ## 🧱 Struktur Database
@@ -40,6 +41,7 @@ Tabel: `users`
 | saldo       | float  | Saldo pulsa          |
 | kuota       | float  | Kuota internet (GB)  |
 | masa_aktif  | text   | Masa aktif (YYYY-MM-DD) |
+
 
 
 ## ▶️ Cara Menjalankan
