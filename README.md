@@ -48,7 +48,7 @@ Tabel: `users`
 git clone https://github.com/username/ussd-pulsa-app.git
 
 2. Masuk ke folder:
-cd ussd-pulsa-app
+cd layanan_pulsa
 
 3. Install dependency:
 go mod tidy
