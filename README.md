@@ -47,7 +47,7 @@ Tabel: `users`
 ## ▶️ Cara Menjalankan
 
 1. Clone repository:
-git clone https://github.com/username/ussd-pulsa-app.git
+git clone https://github.com/athallahnakulla/layanan_pulsa.git
 
 2. Masuk ke folder:
 cd layanan_pulsa
