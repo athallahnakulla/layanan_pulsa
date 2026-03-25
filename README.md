@@ -11,6 +11,7 @@ Aplikasi ini meniru cara kerja layanan operator seluler untuk:
 - Isi ulang pulsa (top-up)
 - Manajemen masa aktif
 
+
 ## 🚀 Fitur Utama
 
 - 📞 Akses menggunakan kode USSD `*805#`
@@ -21,11 +22,13 @@ Aplikasi ini meniru cara kerja layanan operator seluler untuk:
 - 🚪 Exit system (seperti USSD asli)
 - 🧭 Navigasi berbasis menu (state machine)
 
+
 ## 🛠️ Tech Stack
 
 - **Golang** → Logic & backend
 - **Fyne** → GUI Desktop App
 - **SQLite** → Database lokal
+
 
 ## 🧱 Struktur Database
 
@@ -37,6 +40,7 @@ Tabel: `users`
 | saldo       | float  | Saldo pulsa          |
 | kuota       | float  | Kuota internet (GB)  |
 | masa_aktif  | text   | Masa aktif (YYYY-MM-DD) |
+
 
 ## ▶️ Cara Menjalankan
 
